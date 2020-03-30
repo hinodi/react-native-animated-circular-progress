@@ -1,0 +1,30 @@
+{
+    "name": "react-native-animated-circular-progress",
+    "version": "1.0.0",
+    "description": "Animated circular progress components for React Native project, with all pure React Native API",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hinodi/react-native-animated-circular-progress"
+    },
+    "keywords": [
+        "react-native",
+        "components",
+        "mobile",
+        "ios",
+        "android",
+        "ui",
+        "animated",
+        "circular-progress"
+    ],
+    "author": "hinodi",
+    "license": "MIT",
+    "homepage": "https://github.com/hinodi/react-native-animated-circular-progress#readme",
+    "peerDependencies": {
+        "react-native": "*",
+        "prop-types": "*"
+    }
+}
