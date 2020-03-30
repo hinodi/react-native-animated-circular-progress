@@ -1,6 +1,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Version](https://img.shields.io/npm/v/react-native-hinodi-components.svg)](https://www.npmjs.com/package/react-native-hinodi-components)
-[![npm](https://img.shields.io/npm/dt/react-native-hinodi-components.svg)](https://www.npmjs.com/package/react-native-hinodi-components)
+[![Version](https://img.shields.io/npm/v/react-native-animated-circular-progress.svg)](https://www.npmjs.com/package/react-native-animated-circular-progress)
+[![npm](https://img.shields.io/npm/dt/react-native-animated-circular-progress.svg)](https://www.npmjs.com/package/react-native-animated-circular-progress)
 
 # react-native-animated-circular-progress
 
@@ -10,7 +10,7 @@ Animated circular progress components for React Native project, with all pure Re
 
 ### [AnimatedCircularProgress]
 
-![](https://media.giphy.com/media/TKk0XIJDVyqxhB3OKQ/giphy.gif)
+![](https://media.giphy.com/media/PgLNQX8tedv8VjnjTq/giphy.gif)
 
 ## AnimatedCircularProgress
 
@@ -26,6 +26,18 @@ import AnimatedCircularProgress from 'react-native-animated-circular-progress';
     innerRadius={40}
     duration={1000}
 />;
+```
+
+You also use CircularProgress without inner Circle
+
+```js
+<AnimatedCircularProgress
+    startDeg={45}
+    endDeg={120}
+    innerRadius={0}
+    duration={300}
+    style={{ marginTop: 10 }}
+/>
 ```
 
 ## Props
