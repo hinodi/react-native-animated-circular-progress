@@ -13,6 +13,7 @@ export default class AnimatedCircularProgress extends React.PureComponent {
         endDeg: PropTypes.number,
         radius: PropTypes.number,
         innerRadius: PropTypes.number,
+        innerBackgroundColor: PropTypes.string,
         duration: PropTypes.number,
         children: PropTypes.node,
         style: ViewPropTypesStyle,
@@ -25,6 +26,7 @@ export default class AnimatedCircularProgress extends React.PureComponent {
         endDeg: 360,
         radius: 100,
         innerRadius: 80,
+        innerBackgroundColor: 'transparent',
         duration: 1000,
         children: null,
         style: null,
@@ -80,7 +82,7 @@ export default class AnimatedCircularProgress extends React.PureComponent {
         zIndex3 = 0,
         rotate3,
     }) => {
-        const { radius, innerRadius, style, children } = this.props;
+        const { radius, innerRadius, style, children, innerBackgroundColor } = this.props;
         return (
             <View
                 style={[
@@ -106,6 +108,7 @@ export default class AnimatedCircularProgress extends React.PureComponent {
                             borderRadius: innerRadius,
                             left: radius - innerRadius,
                             top: radius - innerRadius,
+                            backgroundColor: innerBackgroundColor,
                         },
                     ]}
                 >

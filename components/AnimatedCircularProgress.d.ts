@@ -33,6 +33,11 @@ export interface AnimatedCircularProgressProps {
      */
     innerRadius?: number;
     /**
+     * BackgroundColor of inner CircularProgress
+     * Defaults to transparent
+     */
+    innerBackgroundColor?: string;
+    /**
      * Time in ms, animation processing during this time
      * Actually animation time is duration / (endDeg - startDeg) smaller than radius
      * Defaults to 1000
