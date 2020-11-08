@@ -1,6 +1,6 @@
 {
     "name": "react-native-animated-circular-progress",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Animated circular progress components for React Native project, with all pure React Native API",
     "main": "index.js",
     "scripts": {
