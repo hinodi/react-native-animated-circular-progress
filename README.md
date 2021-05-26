@@ -44,8 +44,8 @@ You also use CircularProgress without inner Circle
 
 | Name            | Description                                                                                                                      | Type   | Required |                            Default Value                             |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------- | :----- | :------: | :------------------------------------------------------------------: |
-| backgroundColor | The background color of CircularProgress                                                                                         | String |          |  ![#eeeeee](https://placehold.it/15/999/000000?text=+) `'#eeeeee'`   |
-| color           | The color of CircularProgress                                                                                                    | String |          | ![#1e88e5](https://placehold.it/15/1e88e5/000000?text=+) `'#1e88e5'` |
+| backgroundColor | The background color of CircularProgress                                                                                         | String |          |   `'#eeeeee'`   |
+| color           | The color of CircularProgress                                                                                                    | String |          |  `'#1e88e5'` |
 | startDeg        | Start degree of CircularProgress, where animation start (0-360)                                                                  | Number |          |                                  0                                   |
 | endDeg          | End degree of CircularProgress, where animation end (0-360), greater than startDeg                                               | Number |          |                                 360                                  |
 | radius          | Radius of outer CircularProgress                                                                                                 | Number |          |                                 100                                  |
